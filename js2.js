@@ -10,7 +10,19 @@ function modifier() {
 
 }
 function changerStyle(){
-    let h1 = document.querySelector('h1');
+
+    let h1 = document.querySelector("h1");
+
     h1.style.color = "blue";
-    h1.style.fontSize = "50px"
+    h1.style.fontSize = "40px";
+    h1.style.backgroundColor = "yellow";
+
+    let paragraphes = document.querySelectorAll("p");
+
+    paragraphes.forEach(function(p){
+
+        p.style.color = "red";
+
+    });
+
 }
