@@ -6,6 +6,10 @@ function change(){
     p[2].textContent = "Pays: Rwanda"
 }
 function important(){
-    let element = document.querySelector('h1')
-    element.classList.add("important");
+    let titre = document.querySelector('h1')
+    let paragraphes = document.querySelectorAll('p')
+    paragraphes.forEach(function(p){
+        p.classList.add("important")
+    })
+    titre.classList.add("important");
 }
