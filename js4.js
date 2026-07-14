@@ -1,6 +1,4 @@
-function ajouterMessage(){
-    let bjr = document.createElement("p");
-    bjr.textContent = "Bonjour";
-    let container = document.querySelector("#container");
-    container.append(bjr);
+function changerImage(){
+    let img = document.querySelector('img');
+    img.src = "chien.jpg"
 }
