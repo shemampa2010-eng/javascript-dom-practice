@@ -5,3 +5,7 @@ function change(){
     p[1].textContent = "Age: 16ans"
     p[2].textContent = "Pays: Rwanda"
 }
+function important(){
+    let element = document.querySelector('h1')
+    element.classList.add("important");
+}
